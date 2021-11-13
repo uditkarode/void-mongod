@@ -1,5 +1,5 @@
 # void-mongod
-This binary in releases was generated using [staticx](https://github.com/JonathonReinhart/staticx) on the official Docker container of mongodb.
+The `mongod` binary in releases was generated using [staticx](https://github.com/JonathonReinhart/staticx) on the official Docker container of mongodb.
 I've included a runit service to start it.
 
 # Instructions
