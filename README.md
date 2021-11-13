@@ -3,7 +3,8 @@ This binary in releases was generated using [staticx](https://github.com/Jonatho
 I've included a runit service to start it.
 
 # Instructions
-First, download the latest `mongod` binary from the https://github.com/uditkarode/void-mongod/releases (or make one yourself) and move it to `/usr/local/bin/mongod` and run the following:
+First, download the most recent `mongod` binary from [releases](https://github.com/uditkarode/void-mongod/releases) (or make one yourself) and move it to `/usr/local/bin/mongod`.
+Once you're done, run the following:
   
 ```bash
 # Assuming you've dealt with adding mongod to your system already
