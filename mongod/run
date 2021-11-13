@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /data/db
+/usr/local/bin/mongod 2>&1

@@ -1,0 +1,4 @@
+#!/bin/sh
+logdir=/tmp/sv/log/mongod
+mkdir -p "$logdir"
+exec svlogd -tt "$logdir"
