@@ -12,7 +12,7 @@ chmod +x /usr/local/bin/mongod
 cd /tmp
 git clone --depth 1 https://github.com/uditkarode/void-mongod
 sudo mv mongod /etc/sv
-sudo ln -sv /etc/sv/docker /var/service
+sudo ln -sv /etc/sv/mongod /var/service
 sudo sv start mongod
 ```
 
