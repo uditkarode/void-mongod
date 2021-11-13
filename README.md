@@ -21,6 +21,9 @@ sudo mv mongod /etc/sv
 sudo ln -sv /etc/sv/mongod /var/service
 sudo sv start mongod
 ```
-
-`mongod` will now run on system startup, and the logs will be saved to `/tmp/sv/log/mongod/current`.
-
+  
+If you see something like `warning: mongod: unable to open supervise/ok: file does not exist`, you can ignore it.
+  
+`mongod` is now running!
+It will also autostart on every system boot.
+The logs will be saved to `/tmp/sv/log/mongod/current`.
