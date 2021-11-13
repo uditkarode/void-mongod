@@ -3,7 +3,10 @@ This binary in releases was generated using [staticx](https://github.com/Jonatho
 I've included a runit service to start it.
 
 # Instructions
-run the following:
+Make sure you have `git` and `wget` installed.
+If not, you can do it with `xbps-install -S git wget`.
+
+Run the following to install `mongod` with the service:
   
 ```bash
 # or your own binary
